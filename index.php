@@ -1,3 +1,10 @@
+<?php
+
+  header('Access-Control-Allow-Origin: *');
+  header('Access-Control-Allow-Headers: *');
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
