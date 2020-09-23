@@ -1,8 +1,3 @@
-<?php 
-  header("Access-Control-Allow-Origin: *");
-  header("Access-Control-Allow-Methods: GET, POST");
-?>
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -110,6 +105,101 @@
               </button>
             </div>
           </div>
+          
+          <div class="accordion" id="accordionExample">
+ 
+          <div class="card">
+    <div class="card-header" id="headingOne">
+      <h2 class="mb-0">
+        <button class="btn btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Daftar Provinsi ↓
+        </button>
+      </h2>
+    </div>
+
+    <div id="collapseOne" class="collapse " aria-labelledby="headingOne" data-parent="#accordionExample">
+      <div class="card-body">
+        <div class="container">
+          <div class="row text-left">
+            <div class="col">
+              1. DKI Jakarta
+              <br>
+              2. Aceh
+              <br>
+              3. Sumatera Utara
+              <br>
+              4. Sumatera Barat
+              <br>
+              5. Riau
+              <br>
+              6. Kepulauan Riau
+              <br>
+              7. Jambi
+              <br>
+              8. Bengkulu
+            </div>
+            <div class="col">
+              9. Sumatera Selatan
+              <br>
+              10. Kepulauan Bangka Belitung
+              <br>
+              11. Lampung
+              <br>
+              12. Banten
+              <br>
+              13. DKI Jakarta
+              <br>
+              14. Jawa Barat
+              <br>
+              15. Jawa Tengah
+              <br>
+              16. Jawa Timur
+            </div>
+            <div class="col">
+            17. Daerah Istimewa Yogyakarta
+              <br>
+              18. Bali
+              <br>
+              19. Nusa Tenggara Barat
+              <br>
+              20. Nusa Tenggara Timur
+              <br>
+              21. Kalimantan Barat
+              <br>
+              22. Kalimantan Selatan
+              <br>
+              23. Kalimantan Tengah
+              <br>
+              24. Kalimantan Timur
+            </div>
+            <div class="col">
+            25. Gorontalo
+              <br>
+              26. Sulawesi Barat
+              <br>
+              27. Sulawesi Selatan
+              <br>
+              28. Sulawesi Tenggara
+              <br>
+              29. Sulawesi Tengah
+              <br>
+              30. Sulawesi Utara
+              <br>
+              31. Maluku
+              <br>
+              32. Maluku Utara
+              <br>
+              33. Papua
+              <br>
+              34. Papua Barat
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
           <h2 id="provinsiError" class="text-center emptyBefore"></h2>
           <hr style="margin-right: -70px; margin-left: -70px" />
           <h2 id="provinsi" class="text-left ml-3 emptyBefore"></h2>
