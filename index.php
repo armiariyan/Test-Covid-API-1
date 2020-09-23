@@ -148,55 +148,55 @@
                 <div class="container">
                   <div class="row text-left">
                     <div class="col-md-3 col-sm-12">
-                      1. DKI Jakarta
+                      1. Aceh
                       <br>
-                      2. Aceh
+                      2. Sumatera Utara
                       <br>
-                      3. Sumatera Utara
+                      3. Sumatera Barat
                       <br>
-                      4. Sumatera Barat
+                      4. Riau
                       <br>
-                      5. Riau
+                      5. Kepulauan Riau
                       <br>
-                      6. Kepulauan Riau
+                      6. Jambi
                       <br>
-                      7. Jambi
+                      7. Bengkulu
                       <br>
-                      8. Bengkulu
+                      8. Sumatera Selatan
                     </div>
                     <div class="col-md-3 col-sm-12">
-                      9. Sumatera Selatan
+                      9. Kepulauan Bangka Belitung
                       <br>
-                      10. Kepulauan Bangka Belitung
+                      10. Lampung
                       <br>
-                      11. Lampung
+                      11. Banten
                       <br>
-                      12. Banten
+                      12. DKI Jakarta
                       <br>
-                      13. DKI Jakarta
+                      13. Jawa Barat
                       <br>
-                      14. Jawa Barat
+                      14. Jawa Tengah
                       <br>
-                      15. Jawa Tengah
+                      15. Jawa Timur
                       <br>
-                      16. Jawa Timur
+                      16. Daerah Istimewa Yogyakarta
                     </div>
                     <div class="col-md-3 col-sm-12">
-                      17. Daerah Istimewa Yogyakarta
+                      17. Bali
                       <br>
-                      18. Bali
+                      18. Nusa Tenggara Barat
                       <br>
-                      19. Nusa Tenggara Barat
+                      19. Nusa Tenggara Timur
                       <br>
-                      20. Nusa Tenggara Timur
+                      20. Kalimantan Barat
                       <br>
-                      21. Kalimantan Barat
+                      21. Kalimantan Selatan
                       <br>
-                      22. Kalimantan Selatan
+                      22. Kalimantan Tengah
                       <br>
-                      23. Kalimantan Tengah
+                      23. Kalimantan Timur
                       <br>
-                      24. Kalimantan Timur
+                      24. Kalimantan Utara
                     </div>
                     <div class="col-md-3 col-sm-12">
                       25. Gorontalo
