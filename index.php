@@ -13,9 +13,6 @@
   <title>Test Covid</title>
 
   <style>
-    main {
-      background-color: aqua;
-    }
 
     h6 {
       background-color: aqua;
@@ -68,8 +65,6 @@
         opacity: 1;
       }
     }
-
-
 
     .blink-2 {
       -webkit-animation: blink-2 1.2s both;
@@ -141,9 +136,9 @@
           <div class="card">
             <div class="card-header" id="headingOne">
               <h2 class="mb-0">
-                <button class="btn btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne"
+                <button class="btn btn-block text-left text-muted" type="button" data-toggle="collapse" data-target="#collapseOne"
                   aria-expanded="true" aria-controls="collapseOne">
-                  Daftar Provinsi ↓
+                  <a href="#">Daftar Provinsi ↓</a> (tekan jika butuh)  
                 </button>
               </h2>
             </div>
@@ -152,7 +147,7 @@
               <div class="card-body">
                 <div class="container">
                   <div class="row text-left">
-                    <div class="col">
+                    <div class="col-md-3 col-sm-12">
                       1. DKI Jakarta
                       <br>
                       2. Aceh
@@ -169,7 +164,7 @@
                       <br>
                       8. Bengkulu
                     </div>
-                    <div class="col">
+                    <div class="col-md-3 col-sm-12">
                       9. Sumatera Selatan
                       <br>
                       10. Kepulauan Bangka Belitung
@@ -186,7 +181,7 @@
                       <br>
                       16. Jawa Timur
                     </div>
-                    <div class="col">
+                    <div class="col-md-3 col-sm-12">
                       17. Daerah Istimewa Yogyakarta
                       <br>
                       18. Bali
@@ -203,7 +198,7 @@
                       <br>
                       24. Kalimantan Timur
                     </div>
-                    <div class="col">
+                    <div class="col-md-3 col-sm-12">
                       25. Gorontalo
                       <br>
                       26. Sulawesi Barat
