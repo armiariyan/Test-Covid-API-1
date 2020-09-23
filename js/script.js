@@ -5,6 +5,7 @@ function searchData() {
     url: "https://data.covid19.go.id/public/api/prov.json",
     type: "get",
     dataType: "json",
+    crossDomain: true,
     success: function (result) {
       y = $("#search-input").val().toUpperCase();
       const x = result.list_data;
