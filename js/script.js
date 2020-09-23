@@ -1,5 +1,6 @@
 function searchData() {
   $(".emptyBefore").empty();
+  $("body").removeClass('blink-2');
 
   $.ajax({
     url: "https://cors-anywhere.herokuapp.com/https://data.covid19.go.id/public/api/prov.json",
@@ -35,19 +36,23 @@ function searchData() {
       $("#positif").text(finalResult.penambahan.positif);
       $("#lakilaki").text(finalResult.jenis_kelamin[0].doc_count);
       $("#perempuan").text(finalResult.jenis_kelamin[1].doc_count);
-      $("#umur1").text(finalResult.kelompok_umur[0].doc_count);
-      $("#umur2").text(finalResult.kelompok_umur[1].doc_count);
-      $("#umur3").text(finalResult.kelompok_umur[2].doc_count);
-      $("#umur4").text(finalResult.kelompok_umur[3].doc_count);
-      $("#umur5").text(finalResult.kelompok_umur[4].doc_count);
-      $("#umur6").text(finalResult.kelompok_umur[5].doc_count);
+      $("#umur1").html(finalResult.kelompok_umur[0].doc_count + `org`);
+      $("#umur2").html(finalResult.kelompok_umur[1].doc_count + `org`);
+      $("#umur3").html(finalResult.kelompok_umur[2].doc_count + `org`);
+      $("#umur4").html(finalResult.kelompok_umur[3].doc_count + `org`);
+      $("#umur5").html(finalResult.kelompok_umur[4].doc_count + `org`);
+      $("#umur6").html(finalResult.kelompok_umur[5].doc_count + `org`);
       $("#search-input").empty();
+      $("body").addClass('blink-2');
 
 
     }
   });
 }
 
+function emptyMain() {
+  $("main").empty();
+}
 $("#search-button").on("click", function () {
   searchData();
 });
