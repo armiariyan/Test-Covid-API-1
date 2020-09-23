@@ -56,11 +56,7 @@
       .bg-umur {
         background-color: rgb(70, 187, 255);
       }
-      .penambahan-border {
-        margin-right: 5px;
-        margin-left: 5px;
-        border-radius: 4px;
-      }
+
     </style>
   </head>
 
@@ -200,7 +196,7 @@
   </div>
 </div>
 
-          <h2 id="provinsiError" class="text-center emptyBefore"></h2>
+          <h2 id="provinsiError" style="color:red;" class="text-center emptyBefore mt-3"></h2>
           <hr style="margin-right: -70px; margin-left: -70px" />
           <h2 id="provinsi" class="text-left ml-3 emptyBefore"></h2>
           <h5 id="lastUpdated" class="text-left ml-3 emptyBefore"></h5>
@@ -262,27 +258,27 @@
             <div class="card-body">
               <div class="container">
                 <div class="row">
-                  <div class="col penambahan-border">
+                  <div class=" col-md-4 col-sm-12 penambahan-border">
                     <h4>Meninggal</h4>
                     <p
                       id="meninggal"
-                      class="emptyBefore"
+                      class="emptyBefore mb-3"
                       style="margin-bottom: -10px"
                     ></p>
                   </div>
-                  <div class="col penambahan-border">
+                  <div class=" col-md-4 col-sm-12 ">
                     <h4>Sembuh</h4>
                     <p
                       id="sembuh"
-                      class="emptyBefore"
+                      class="emptyBefore mb-3"
                       style="margin-bottom: -10px"
                     ></p>
                   </div>
-                  <div class="col penambahan-border">
+                  <div class=" col-md-4 col-sm-12 ">
                     <h4>Positif</h4>
                     <p
                       id="positif"
-                      class="emptyBefore"
+                      class="emptyBefore mb-3"
                       style="margin-bottom: -10px"
                     ></p>
                   </div>
@@ -305,7 +301,7 @@
                     <h4>Laki - Laki</h4>
                     <p
                       id="lakilaki"
-                      class="emptyBefore"
+                      class="emptyBefore mb-3"
                       style="margin-bottom: -10px"
                     ></p>
                   </div>
@@ -313,7 +309,7 @@
                     <h4>Perempuan</h4>
                     <p
                       id="perempuan"
-                      class="emptyBefore"
+                      class="emptyBefore mb-3"
                       style="margin-bottom: -10px"
                     ></p>
                   </div>
@@ -323,7 +319,7 @@
           </div>
         </div>
       </div>
-      <div class="row mt-3 mb-5 justify-content-center text-center">
+      <div class="row mt-3 mb-3 justify-content-center text-center">
         <div class="col">
           <div class="card">
             <div class="card-header bg-umur">
@@ -332,43 +328,43 @@
             <div class="card-body">
               <div class="container">
                 <div class="row">
-                  <div class="col penambahan-border">
+                  <div class="col-md-2 col-sm-6 penambahan-border">
                     <h4>0 - 5</h4>
                     <p
                       id="umur1"
-                      class="emptyBefore"
+                      class="emptyBefore mb-3"
                       style="margin-bottom: -10px"
                     ></p>
                   </div>
-                  <div class="col penambahan-border">
+                  <div class="col-md-2 col-sm-6 penambahan-border">
                     <h4>6 - 18</h4>
                     <p
                       id="umur2"
-                      class="emptyBefore"
+                      class="emptyBefore mb-3"
                       style="margin-bottom: -10px"
                     ></p>
                   </div>
-                  <div class="col penambahan-border">
+                  <div class="col-md-2 col-sm-6 penambahan-border">
                     <h4>19 - 30</h4>
                     <p
                       id="umur3"
-                      class="emptyBefore"
+                      class="emptyBefore mb-3"
                       style="margin-bottom: -10px"
                     ></p>
                   </div>
-                  <div class="col penambahan-border">
+                  <div class="col-md-2 col-sm-6 penambahan-border">
                     <h4>31 - 45</h4>
                     <p
                       id="umur4"
-                      class="emptyBefore"
+                      class="emptyBefore mb-3"
                       style="margin-bottom: -10px"
                     ></p>
                   </div>
-                  <div class="col penambahan-border">
+                  <div class="col-md-2 col-sm-6 penambahan-border">
                     <h4>46 - 59</h4>
                     <p
                       id="umur5"
-                      class="emptyBefore"
+                      class="emptyBefore mb-3"
                       style="margin-bottom: -10px"
                     ></p>
                   </div>
@@ -376,7 +372,7 @@
                     <h4>≥60</h4>
                     <p
                       id="umur6"
-                      class="emptyBefore"
+                      class="emptyBefore mb-1"
                       style="margin-bottom: -10px"
                     ></p>
                   </div>
@@ -386,6 +382,15 @@
           </div>
         </div>
       </div>
+      <footer>
+        <div class="container-fluid">
+          <div class="row text-center">
+            <div class="col">
+                <h6 style="background-color:transparent;">API From : https://data.covid19.go.id/public/api/prov.json || Follow <b>@subordinatif</b></h6>
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
