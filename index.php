@@ -65,6 +65,18 @@
   </head>
 
   <body>
+  <script type="text/javascript">
+var xhr = new XMLHttpRequest();
+xhr.onreadystatechange = function() {
+  if (xhr.readyState == 4) {
+    obj = JSON.parse(xhr.responseText);
+    console.log(obj);
+  }
+}
+
+xhr.open('GET', 'https://data.covid19.go.id/public/api/prov.json');
+xhr.send();
+</script>
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
       <a class="navbar-brand" href="#"> </a>
       <button
